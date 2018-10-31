@@ -56,6 +56,10 @@ describe("Airport", function() {
     airport2.land(plane);
     expect(function() {airport.takeOff(plane)} ).toThrow(new Error("Error: Plane is not at airport."))
   });
+  //
+  // it ("should refuse landing when weather is stormy", function() {
+  //   airport.land(plane);
+  // })
 
 
 });
